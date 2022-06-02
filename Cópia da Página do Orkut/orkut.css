@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(186, 200, 240)
+}
+
+article{
+  display: grid;
+  grid-template-columns: auto 25%;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+section:first-child {
+  height: 500px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle
+}
+
+section:first-child h1{
+  font: tahoma-bolder;
+  font-size: 10vw;
+  color: rgb(255, 0, 181);
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 120px;
+}
+
+section:first-child p{
+  font: tahoma-bolder;
+  font-size: 1vw;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 0
+}
+
+section:first-child b{
+  font: tahoma-bolder;
+  font-size: 1vw;
+  color: rgb(255, 0, 181);
+  justify-content: center;
+  margin-bottom: 0
+}
+
+#login-part {
+  justify-content: center;
+  background-color: rgb(207, 217, 244);
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+
+}
+
+#nav-footer {
+  justify-content: center;
+  background-color: rgb(207, 217, 244);
+  border-color: white;
+  height: fit-content;
+  text-align: center;
+
+}
