@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <section class="section1">
+        <section class="jogador1">
+            <h2>Jogador 1 - X</h2>
+            <h2 class="nome"></h2>
+            <button class="mudarNome" onclick="mudarNome(1)">Mudar Nome</button>
+            <div class="setorPontuacao">
+                Pontuação: 
+                <div class="pontuacao"></h2>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h1 class="titulo">Jogo da Véia</h1>
+            <div class="tabuleiro">
+                <div data-cell-index="0" class="cell">0</div>
+                <div data-cell-index="1" class="cell">1</div>
+                <div data-cell-index="2" class="cell">2</div>
+                <div data-cell-index="3" class="cell">3</div>
+                <div data-cell-index="4" class="cell">4</div>
+                <div data-cell-index="5" class="cell">5</div>
+                <div data-cell-index="6" class="cell">6</div>
+                <div data-cell-index="7" class="cell">7</div>
+                <div data-cell-index="8" class="cell">8</div>
+            </div>
+            <h2 class="status"></h2>
+            <h2 class="sequenciaGanho"></h2>
+            <button class="restart">Recomeçar jogo</button>
+            <button onclick="zerarPontuacao()">Zerar Pontuação</button>
+        </section>
+
+        <section class="jogador2">
+            <h2>Jogador 2 - O</h2>
+            <h2 class="nome"></h2>
+            <button class="mudarNome" onclick="mudarNome(2)">Mudar Nome</button>
+            <div class="setorPontuacao">
+                Pontuação: 
+                <div class="pontuacao"></h2>
+            </div>
+        </section>
+    </section>
+<script src="tictactoe.js"></script>
+</body>
+</html>

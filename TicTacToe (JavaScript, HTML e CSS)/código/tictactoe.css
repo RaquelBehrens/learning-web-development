@@ -1,0 +1,67 @@
+body {
+    background-color: #fffeff;
+}   
+
+.section1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.jogador1 {
+    font-family: "Arial", sans-serif;
+    color:rgb(109, 109, 109);
+    margin: 10vh auto;
+}
+
+.jogador2 {
+    font-family: "Arial", sans-serif;
+    color:rgb(109, 109, 109);
+    margin: 10vh auto;
+}
+
+.setorPontuacao {
+    font-size: 2.5vh
+}
+
+.mudarNome {
+    margin: 2vh auto;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7vh;
+    color: #cc00d3;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 25vw;
+    margin: 5vh auto;
+}
+
+.status {
+    font-family: "Arial", sans-serif;
+    color:rgb(109, 109, 109)
+}
+
+.sequenciaGanho {
+    font-family: "Arial", sans-serif;
+    color:rgb(109, 109, 109)
+}
+
+.cell {
+    background-color: #ffffff;
+    color: silver;
+    font-family: "Permanent Marker", cursive;
+    box-shadow: 0 0 0 1px #0094d3;
+    border: 1px solid #c100d3;
+    cursor: pointer;
+    line-height: 13vh;
+    font-size: 8vh;
+}
