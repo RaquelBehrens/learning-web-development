@@ -1,0 +1,147 @@
+<!-- Hypertext Markup language -->
+<!DOCTYPE html>
+
+
+<!-- Atributos: -->
+<img src="link" alt="texto que aparece quando a imagem não é carregada">
+
+<!-- Quebra de linha: -->
+<br>
+
+<!-- Atributos booleanos (nesse caso, o disabled não permite escrever na caixa
+de texto): -->
+<input type="text" disabled="disabled">
+
+
+<!-- Títulos -->
+<h1>Título 1</h1>
+<h2>Título 2</h2>
+<h3>Título 3</h3>
+<p>Parágrafo</p>
+
+
+<!-- Listas -->
+<ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ol>
+
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ul>
+
+
+<!-- Listas de descrição -->
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um hipertexto com possibilidades</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação de texto</dd>
+
+    <dt>Algo</dt>
+    <dd>Descrição</dd>
+</dl>
+
+
+<!-- Citações -->
+<!-- Citação 1 -->
+<blockquote cite="http://google.com"> 
+    O <strong>elemento HTML <code>&lt;blockquote&gt;</code> </strong> (ou 
+    <em>HTML Block Quotation Element</em>) indica que um texto externo foi citado.
+</blockquote>
+
+<!-- Citação 2 -->
+<p>
+    De acordo com <a href="http://google.com">
+                        <cite>página MDN blockquote</cite>:
+                  </a>
+</p>
+
+<!-- Citação 3 -->
+<p>
+    O elemento quote <code>&lt;q&gt;</code> é <q cite="http://google.com">usado para 
+        citações curtas que não precisam de parágrafos ou quebras de linha.</q> -- 
+        <a href="http://google.com">MDN q page</a>.
+</p>
+
+
+<!-- Representação de código -->
+<pre>
+    <code>
+        document.querySelector("body")
+    document.querySelector("body")
+    </code>
+</pre>
+
+
+<!-- Elementos genéricos -->
+<div class="cart">
+    <span>Camiseta</span>
+    <span>R$ 99,90</span>
+</div>
+
+
+<!-- Outros elementos: -->
+<em>Marcado</em>
+<strong>Negrito</strong>
+<b>Negrito</b>
+
+
+<!-- Elemento âncora -->
+<!-- Exemplo 1 -->
+<a href="http://google.com" target="_blank">Conteúdo</a>
+
+<!-- Exemplo 2 -->
+<p>Encontre-me:</p>
+<ul>
+    <li><a href="http://https://github.com/RaquelBehrens">Github</a></li>
+    <li><a href="mailto:raquel.behrens@hotmail.com">E-mail</a></li>
+    <li><a href="tel:+551199887766">Telefone</a></li>
+</ul>
+
+<!-- Exemplo 3 -->
+<p>Saiba mais</p>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+    <li><a href="#history">História</a></li>
+    <li><a href="#works">Trabalhos</a></li>
+</ul>
+
+<h1 id="about">Sobre mim</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae, rerum iure suscipit illo, quia at repellat sint distinctio quae temporibus tenetur nam aliquam praesentium voluptas placeat velit ad voluptatem!
+
+<h2 id="history">História</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rerum ex tempore temporibus? Cum vitae repellendus quidem inventore quae, nesciunt dolorem consequuntur culpa molestias tempora sit praesentium nihil suscipit molestiae?
+
+<h2 id="works">Trabalhos</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque corrupti ex, dicta, ea nihil neque sunt tempore, nisi earum quibusdam eum veritatis. Possimus doloribus, at corrupti quaerat ullam repellendus deserunt!
+
+<!-- Exemplo 4 -->
+<a href="http://google.com" title="Ir para o Google">
+    <h1>Link</h1>
+    <p>Outro elemento</p>
+    <img src="" alt="Imagem">
+    <br>
+</a>
+
+<!-- Exemplo 5: Navegando pelos diretórios -->
+<br>
+<a href="caminho.html">Abrir outro arquivo no mesmo diretório</a>
+<br>
+<a href="./caminho.html">Abrir outro arquivo no mesmo diretório</a>
+<br>
+<a href="pasta/caminho.html">Abrir outro arquivo em diretório abaixo</a>
+<br>
+<a href="../Exercício1/index.html">Abrir outro arquivo em diretório acima</a>
+
+<!-- Exemplo 6: Absolutos e relativos -->
+<br>
+<a href="google.com">Relativo: ir para ao google (pega do diretório da pasta)</a>
+<br>
+<a href="https://google.com">Absoluto: ir para o google (link absoluto)</a>
+<br>

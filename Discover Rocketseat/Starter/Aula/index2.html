@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!-- Tabelas: -->
+<table>
+
+    <caption>Pessoas por idade</caption>
+    
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Nome 1</td>
+            <td>Idade 1</td>
+        </tr>
+        <tr>
+            <td>Nome 2</td>
+            <td>Idade 2</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total: </td>
+            <td>2 pessoas</td>
+        </tr>
+    </tfoot>
+</table>
+
+<br>
+
+<!-- Tabela complexa: -->
+<table>
+    <caption>Produzidos x Vendidos por Loja</caption>
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: blue">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Loja 1</th>
+            <th colspan="2" scope="colgroup">Loja 2</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>30</td>
+            <td>50</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
