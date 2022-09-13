@@ -1,0 +1,45 @@
+/*Importar fonte diferente*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+#title, #title strong {
+    color: gray
+}
+
+#other-title {
+    color: green
+}
+
+* {
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    border: 1px solid red;
+    margin: 200px; /*-> espaçamento por fora da caixa*/
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: lightblue !important
+}
+
+
+/*Shorthand*/
+
+* {
+    background-color: aliceblue;
+    background-image: url(images/image.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    background: aliceblue url(images/image.gif) no-repeat left top;
+
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+
+    font: italic bold .8em 1.2 Arial, sans-serif;
+}

@@ -1,0 +1,25 @@
+/* 
+Global selector: *                                               0 ^ Menor força
+Element/Type selector: h1, h2, p, div                            1 |
+Class selector: .red, .m-4                                      10 |  
+ID selector: #box, #container                                  100 |
+Attribute selector, pseudo-class, pseudo-element, e outros    1000 | Maior força
+*/
+
+* {
+    margin: 0;
+}
+
+h1, h3 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+#container {
+    width: 200px;
+}
+
+.m-40 {
+    margin: 40px;
+}
