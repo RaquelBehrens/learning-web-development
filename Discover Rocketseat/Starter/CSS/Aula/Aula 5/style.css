@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-rows: 7vh 1fr 5vh;
+    grid-template-columns: 1fr 30vw;
+
+    font-family: 'Lato', sans-serif;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    line-height: 5em;
+    text-transform: lowercase;
+    text-decoration: line-through overline underline wavy yellow;
+    text-align: center;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px green;
+}
+
+header {
+    grid-area: header;
+    background-color: green;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+main {
+    grid-area: main;
+    background-color: red;
+}
+
+aside {
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+}

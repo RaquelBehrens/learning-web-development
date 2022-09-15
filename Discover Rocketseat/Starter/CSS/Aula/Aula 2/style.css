@@ -1,6 +1,13 @@
 /*Importar fonte diferente*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+/*
+Distâncias relativas:
+em -> tamanho da font do pai
+rem -> tamanho da font do elemento raiz (root/html)
+vw -> 1% da viewport width
+vh -> 1% da viewport height
+*/
 
 #title, #title strong {
     color: gray
