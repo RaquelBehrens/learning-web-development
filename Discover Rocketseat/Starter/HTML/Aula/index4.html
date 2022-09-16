@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="contato" action="" method="GET"></form>
+
+    <fieldset form="contato" name="inputs-contact" >
+        <legend>Contato</legend>
+        <label for="nome">
+            Nome
+            <input type="text" value="alguma coisa">
+            <input type="text" value="">
+        </label>
+        <input id="nome" type="text">
+    </fieldset>
+
+    <!--se colocar as tags name e value, na hora de enviar o formulário button vai
+        ter o valor do value-->
+    <button form="contato" autofocus type="submit" name="button" value="Valor qualquer">Enviar</button>
+    
+    <input type="submit" form="contato" value="Enviar">
+
+    <br>
+    <br>
+
+    <input type="text" list="fruitsdata" placeholder="Escolha uma fruta">
+    <datalist id="fruitsdata">
+        <option>apple</option>
+        <option>banana</option>
+        <option>mango</option>
+        <option>orange</option>
+        <option>cherry</option>
+    </datalist>
+    
+    <input type="color" list="colorsdata">
+    <datalist id="colorsdata">
+        <option>#ff0000</option>
+        <option>#00ff00</option>
+    </datalist>
+
+    <br><br>
+    <form id="meu-form"></form>
+    <label for="email">E-mail</label>
+    <input name="email" type="email" form="meu-form" placeholder="Digite seu e-mail" size="15"
+           pattern=".+@bridge\.ufsc\.br">
+    <button type="submit" form="meu-form">Enviar</button>
+    
+</body>
+</html>
