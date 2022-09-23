@@ -1,0 +1,15 @@
+{
+  "name": "pacote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "learning",
+    "nodejs"
+  ],
+  "author": "Raquel Behrens",
+  "license": "ISC"
+}
