@@ -40,10 +40,10 @@ export function Home() {
       </header>
 
       <input type="text" placeholder='Digite o nome.' onChange={e => setStudentName(e.target.value)}/>
-      <button type="button" onClick={handleAddStudent}>Adicionar</button>s
+      <button type="button" onClick={handleAddStudent}>Adicionar</button>
       
       {
-        students.map(student => <Card key={student.name} name={student.name} time={student.time}/>)
+        students.map(student => (<Card key={student.name} name={student.name} time={student.time}/>))
       }
       
     </div>
