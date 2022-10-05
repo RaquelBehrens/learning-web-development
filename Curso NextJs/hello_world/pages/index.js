@@ -1,26 +1,20 @@
+import styles from '../styles/Home.module.css'
+
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <ul>
-        <li>
-          <Link href="/products">
-            <a>Produtos</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a>Sobre</a>
-          </Link>
-        </li>
-      </ul>
-
-      <h1>Hello World Next.js</h1>
-    </div>
+    <>
+      <Head>
+        <title>Página Principal</title>
+        <meta name="keywords" content="Roupas, Calçados, Bonés"></meta>
+        <meta name="description" content="Encontre a melhor roupa para você"></meta>
+      </Head>
+      <div>
+        <h1 className={styles.title}>Hello World Next.js</h1>
+        <Image src="/images/corals.jpeg" width="300px" height="220px" alt="Corais"/>
+      </div>
+    </>
   )
 }
